@@ -1,4 +1,4 @@
-# PROCUREMENT DASHBOARD
+# PROCUREMENT BUSINESS INSIGHT DASHBOARD
 
 This project visualizes procurement performance using transaction data from 2022 - 2023. The goal is to provide insights into supplier performance, order insight, and cost distribution using an interactive Tableau dashboard to support better procurement decision-making.
 
@@ -34,7 +34,7 @@ Problem: Some rows had missing values in the Delivery_Date column, which are cri
 
 Solution using Excel :
 - Calculated the average lead time (in days) using rows where both Order_Date and Delivery_Date were available
-- For row with missing Delivery_Date, filled in the value by adding the average lead time to the corresponding Order_Date
+- For row with missing Delivery_Date, the values were estimated by adding the average lead time to the corresponding Order_Date
 - Excel Formula : (Order_Date) + (Average_Lead_Time)
 
 ## Key Insights
